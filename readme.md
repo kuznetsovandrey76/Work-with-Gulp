@@ -6,8 +6,8 @@
 	mkdir app/{css,js} dist -p  
 	touch app/css/style.css app/js/main.js app/index.html  
 
-	npm install --save-dev gulp-concat-css  
-	npm install --save-dev gulp-livereload  
+	npm install --save-dev gulp-clean-css  
+	npm install --save-dev gulp-livereload  (если это необходимо)
 
 2. Содержимое `gulpfile.js` можно скопировать
 
